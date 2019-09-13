@@ -46,7 +46,7 @@ else:
 
 #Set path variable    
 path = r'./{}/{}/{}/{}'.format(operating_system, browser, version, engine)
-print("Setting PATH: ", path)
+print("PATH set: ", path)
 
 #Enable driver options 
 if browser == 'chrome':
@@ -106,3 +106,4 @@ for title in classes:
         break
 if passed == True:
     print('Test Passed! All courses on page are CS.')
+    driver.quit()
