@@ -36,4 +36,4 @@
 4. To restart test, wait for final prompt and input `Y` otherwise input `n`.
 5. Upon restart, program prompts for headless/not headless, input `Y` or `n`, respectively.
 
-### Report bugs to [me@bryanwnonni.com](mailto:me@bryanwnonni.com)
+### Report bugs to the [issues tab](https://github.com/bnonni/GTPylenium/issues)
