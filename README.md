@@ -1,4 +1,4 @@
-# GTPylenium Testing Program | Test Automation Engineer Assessment
+# GTPylenium Testing Suite | Test Automation Engineer
 
 ## Know Before You Go 
 1. Python 3.7 `python3`
