@@ -2,4 +2,6 @@
 
 echo "Welcome to GTPylenium!"
 sleep 0.5
-./BryanNonni_SelenumTest.py
+read -p "Would you like this test to be headless (Y/n)? " H
+H="-$H"
+./BryanNonni_SeleniumTest $H
