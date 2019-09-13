@@ -1,4 +1,4 @@
-# Bryan Nonni | Selenium Test | GTRI - Test Automation Engineer
+# GTPylenium Testing Program | Test Automation Engineer
 
 ## Know Before You Go 
 * Test uses selenium version 3.141.0.
