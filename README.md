@@ -15,4 +15,4 @@
      - Select version number of respective browser choice.
 3. Wait for console outputs and test results.
 
-### Report bugs to (me@bryanwnonni.com)[mailto:me@bryanwnonni.com]
+### Report bugs to [me@bryanwnonni.com](mailto:me@bryanwnonni.com)
