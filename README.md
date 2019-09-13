@@ -8,8 +8,9 @@
      - Open Chrome, select the menu (3 vertical dots, top right), select help, select 'About Google Chrome.'
      - Open Firefox, select the Firefox menu option, select 'About Firefox.'
 5. Download and install [Google Chrome](https://www.google.com/chrome/) and [Firefox](https://www.mozilla.org/firefox/download/thanks/).
-6. Download [ChromeDriver v77.0.3865.10](https://chromedriver.storage.googleapis.com/index.html?path=77.0.3865.40/) and [GeckoDriver v0.25.0](https://github.com/mozilla/geckodriver/releases/tag/v0.25.0), and place them inside either the 1_BryanNonni_SeleniumTest.py folder or the 2_BryanNonni_SeleniumTest_With_Drivers (if you're on windows). 
-7. On Windows, change line 1 in all programs from `#!/usr/bin/env python3` to `#!/c/Python37/python`
+6. Download [ChromeDriver v77.0.3865.10](https://chromedriver.storage.googleapis.com/index.html?path=77.0.3865.40/) and [GeckoDriver v0.25.0](https://github.com/mozilla/geckodriver/releases/tag/v0.25.0), and place them inside the 1_BryanNonni_SeleniumTest.py folder
+* Note: If you're using windows, you'll need to download the .exe drivers and place them inside the 1_BryanNonni_SeleniumTest.py and 2_BryanNonni_SeleniumTest_With_Drivers folders.
+7. If using Windows, change line 1 in all programs from `#!/usr/bin/env python3` to `#!/c/Python37/python`
 
 ## Which is which?
 1. [1_BryanNonni_SeleniumTest.py](./1_BryanNonni_SeleniumTest.py) contains the adapted file without drivers included.
