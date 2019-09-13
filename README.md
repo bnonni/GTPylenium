@@ -1,12 +1,14 @@
 # GTPylenium Testing Program | Test Automation Engineer Assessment
 
 ## Know Before You Go 
-* Python 3.7 `python3`
-* Selenium version 3.141.0
-* Chromium versions 74 to 77, and Gecko versions 0.22 to 0.25.
-* Determine browser version:
+1. Python 3.7 `python3`
+2. Selenium version 3.141.0
+3. Chromium versions 74 to 77, and Gecko versions 0.22 to 0.25.
+4. Determine browser version:
      - Open Chrome, select the menu (3 vertical dots, top right), select help, select 'About Google Chrome.'
      - Open Firefox, select the Firefox menu option, select 'About Firefox.'
+5. Download and install [Google Chrome](https://www.google.com/chrome/) and [Firefox](https://www.mozilla.org/firefox/download/thanks/).
+6. On Windows, change line 1 in all programs from `#!/usr/bin/env python3` to `#!/c/Python37/python`
 
 ## Which is which?
 1. [1_BryanNonni_SeleniumTest.py](./1_BryanNonni_SeleniumTest.py) contains the adapted file without drivers included.
@@ -15,16 +17,22 @@
 
 ## Now You Know, Time to Go
 ### To execute the program in [1_BryanNonni_SeleniumTest.py](./1_BryanNonni_SeleniumTest.py/BryanNonni_SeleniumTest.py)
-1. Change directories via terminal into this folder `cd 1_BryanNonni_SeleniumTest.py`
-2. Execute script either using the python interpreter command `python3 BryanNonni_SeleniumTest.py` or simply using traditional bash execution `./BryanNonni_SeleniumTest.py`
-3. Watch the console for test results.
+* Note: If using a windows OS, change line 1 from `#!/usr/bin/env python3` to `#!/c/Python37/python`
+1. Follow steps 5 and 6 from the `Know Before You Go` section, if necessary.
+2. Download [ChromeDriver v77.0.3865.10](https://chromedriver.storage.googleapis.com/index.html?path=77.0.3865.40/) and [GeckoDriver v0.25.0](https://github.com/mozilla/geckodriver/releases/tag/v0.25.0), and place them inside the 1_BryanNonni_SeleniumTest.py folder.
+3. Change directories via terminal into this folder `cd 1_BryanNonni_SeleniumTest.py`
+4. Execute script either using the python interpreter command `python3 BryanNonni_SeleniumTest.py` or simply using traditional bash execution `./BryanNonni_SeleniumTest.py`
+5. Watch the console for test results.
 
 ### To execute the program in [2_BryanNonni_SeleniumTest_With_Drivers](./2_BryanNonni_SeleniumTest_With_Drivers/BryanNonni_SeleniumTest.py)
-1. Change directories via terminal into this folder `cd 2_BryanNonni_SeleniumTest_With_Drivers`
-2. Execute script either using the python interpreter command `python3 BryanNonni_SeleniumTest.py` or simply using traditional bash execution `./BryanNonni_SeleniumTest.py`
-3. Watch the console for test results.
+* Note: If using a windows OS, change line 1 from `#!/usr/bin/env python3` to `#!/c/Python37/python`
+1. Follow steps 5 and 6 from the `Know Before You Go` section and step 1 from the `Now You Know, Time to Go` section, if necessary.
+2. Change directories via terminal into this folder `cd 2_BryanNonni_SeleniumTest_With_Drivers`
+3. Execute script either using the python interpreter command `python3 BryanNonni_SeleniumTest.py` or simply using traditional bash execution `./BryanNonni_SeleniumTest.py`
+4. Watch the console for test results.
 
 ### To execute the program in [3_BryanNonni_SeleniumTest](./3_BryanNonni_SeleniumTest/BryanNonni_SeleniumTest)
+* Note: If using a windows OS, change line 1 from `#!/usr/bin/env python3` to `#!/c/Python37/python`
 1. Change directories via terminal into this folder `cd 3_BryanNonni_SeleniumTest`
 1. Execute the start bash script `./start`
 2. Wait for console prompts and input proper responses:
