@@ -14,7 +14,7 @@
 
 ## Which is which?
 1. [1_BryanNonni_SeleniumTest.py](./1_BryanNonni_SeleniumTest.py) contains the adapted file without drivers included.
-2. [2_BryanNonni_SeleniumTest_With_Drivers](./2_BryanNonni_SeleniumTest_With_Drivers) contains the same file from the 1_BryanNonni_SeleniumTest.py folder but also includes the drivers needed to run the program for a mac. If using windows, follow step 
+2. [2_BryanNonni_SeleniumTest_With_Drivers](./2_BryanNonni_SeleniumTest_With_Drivers) contains the same file from the 1_BryanNonni_SeleniumTest.py folder but also includes the drivers needed to run the program for a mac. If using windows, follow step 6 from the `Know Before You Go` section (also pay attention to the note below step 6). 
 3. [3_BryanNonni_SeleniumTest](./3_BryanNonni_SeleniumTest) contains the originally written program that takes user inputs and adapts the test to those inputs. Also included are multiple versions of the drivers.
 
 ## Now You Know, Time to Go
