@@ -4,7 +4,7 @@
 * Test uses selenium version 3.141.0.
 * Test supports Chromium versions 74 - 77, and Gecko versions 0.22 - 0.25.
 * Determine your Chrome and Firefox versions:
-     - Open Chrome, select the menu (3 vertical dots in top right hand corner), hover over help, select 'About Google Chrome.'
+     - Open Chrome, select the menu (3 vertical dots, top right), select help, select 'About Google Chrome.'
      - Open Firefox, select the Firefox menu option, select 'About Firefox.'
 
 ## Now You Know, Time to Go
