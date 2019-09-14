@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
+#Edit the above line if using windows! macOS: #!/usr/bin/env python3 or win: #!/c/Python37/python
 import os
 import re
 from sys import exit
 from sys import argv
+from sys import platform
 import time as t
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
@@ -14,7 +16,8 @@ from selenium.webdriver.support import expected_conditions as ec
 browser = ['chrome', 'firefox']
 version = ['77', '25']
 engine = ['chromedriver', 'geckodriver']
-envs = ['./chromedriver', './geckodriver']
+mac_envs = ['../2_BryanNonni_SeleniumTest_With_Drivers/chromedriver', '../2_BryanNonni_SeleniumTest_With_Drivers/geckodriver']
+win_envs = ['./chromedriver.exe', './geckodriver.exe']
 website = 'https://oscar.gatech.edu/'
 schedule = "//*[contains(text(), 'Schedule of ')]"
 spring = "//*[contains(text(), 'Spring 2019')]"
@@ -26,7 +29,8 @@ search = "//input[@value='Class Search']"
 passed = True
 i = 0
 H = input('Welcome to GTPylenium!\nWould you like this test to be headless (Y/n)? ')
-
+uname = platform
+envs = mac_envs if uname == 'darwin' else win_envs
 for path in envs:
     #Set path to driver
     engine_path = path
@@ -78,7 +82,7 @@ for path in envs:
 
     #Conditional for firefox; geckodriver does not implicitly wait for page and elements to load unlike chrome driver
     #Conditional pauses driver using explicit wait until the class titles exist on page, then resumes driver function
-    if browser == 'firefox':
+    if browser[i] == 'firefox':
         print('Driver Status: Waiting for page to load.')
         wait = WebDriverWait(driver, 60)
         wait.until(ec.visibility_of_element_located((By.CLASS_NAME, 'ddtitle')))
@@ -110,7 +114,7 @@ for path in envs:
     #Check if test passed, print success message if True
     #If not headless, close browser window, otherwise continue outer loop to check firefox
     if passed == True:
-        print(browser[i], ' Test Passed! All courses on page are CS.')
+        print(browser[i], 'Test Passed! All courses on page are CS.')
         i+=1
         if H != 'Y':
             driver.close()

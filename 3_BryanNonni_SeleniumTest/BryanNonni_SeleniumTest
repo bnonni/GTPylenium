@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# coding: utf-8
+#Edit the above line if using windows! macOS: #!/usr/bin/env python3 or win: #!/c/Python37/python
 import os
 import re
 from datetime import datetime
@@ -48,7 +48,7 @@ while(restart == 'Y'):
         version_input = input(message)
         version = '77' if version_input == '' else version_input
         env.append(version)
-
+    print(env)
     if operating_system == 'mac':
         if browser == 'chrome':
             engine = 'chromedriver'
@@ -116,7 +116,7 @@ while(restart == 'Y'):
     print('Driver Status: Elements found. Testing classes for CS.')
     for title in classes:
         class_title = title.text
-        # print(class_title)
+        print(class_title)
         test = re.search('(CS){1}', class_title)
         if test:
             pass
