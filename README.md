@@ -1,4 +1,4 @@
-# GTPylenium Testing Suite | Test Automation Engineer
+# Pylenium Testing Suite | Web Testing Automation
 
 ## Know Before You Go 
 1. Python 3.7 `python3`
